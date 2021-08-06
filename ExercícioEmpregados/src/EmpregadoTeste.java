@@ -29,6 +29,9 @@ public class EmpregadoTeste {
 		e2.aumentarSalario(12);
 		e3.aumentarSalario(15);
 		
-
+		System.out.println("---Depois do Aumento do Ordenado");
+		e1.imprimir();
+		e2.imprimir();
+		e3.imprimir();
 	}
 }

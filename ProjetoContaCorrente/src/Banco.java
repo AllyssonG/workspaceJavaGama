@@ -14,11 +14,12 @@ public class Banco {
 		
 		Conta c1;
 		c1=new Conta();
-		c1.setNumeroConta(12345);
-		c1.setDigito(6);
-		c1.setTitular("Professor Isidro");
-		c1.setCpf("123.456.789-00");
-		c1.setSaldo(200.00);
+		System.out.println("INICIO =" +c1);
+//		c1.setNumeroConta(12345);
+//		c1.setDigito(6);
+//		c1.setTitular("Professor Isidro");
+//		c1.setCpf("123.456.789-00");
+//		c1.setSaldo(200.00);
 		
 		//agora vem meu menu!!!
 		do {
